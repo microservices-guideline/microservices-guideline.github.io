@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/microservices-guideline/microservices-guideline.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This page contains the resources used in the paper "Guidelines for Extracting Microservices from Monolithics", available at [doi:10..xxx/yyyyy]().
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Summary
 
-### Markdown
+1. [AirBnb](#)
+2. [Atlassian](#)
+3. [Danske Bank](#)
+4. [Karma](#)
+5. [Medium](#)
+6. [Netflix](#)
+7. [SoundCloud](#)
+8. [Thoughworks](#)
+9. [TransferWise](#)
+10. [Uber](#)
+11. [WIX](#)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<hr>
 
-```markdown
-Syntax highlighted code block
+## AirBnb (AB)
 
-# Header 1
-## Header 2
-### Header 3
+## Atlassian (AT)
 
-- Bulleted
-- List
+- Video: [From Monolith to Microservices](https://www.youtube.com/watch?v=1jvgxdzxJGQ) - AtlasCamp 2016
 
-1. Numbered
-2. List
+- Article: [Building microservices in 2019 and beyond](https://atlassian.com/continuous-delivery/microservices/building-microservices) - Atlassian blog
 
-**Bold** and _Italic_ and `Code` text
+- Article: [Microservices and Microservices Architecture](https://www.atlassian.com/continuous-delivery/microservices) - Atlassian Blog
 
-[Link](url) and ![Image](src)
-```
+## Danske Bank (DB)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Karma (KM)
 
-### Jekyll Themes
+## Medium (MD)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/microservices-guideline/microservices-guideline.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Netflix (NF)
 
-### Support or Contact
+- Video: [Microservices at Netflix Scale: Principles, Tradeoffs & Lessons Learned](https://www.youtube.com/watch?v=57UK46qfBLY) - GOTO Conference 2016
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Video: [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) - QCon 2016
+
+- Article [Adopting Microservices at Netflix: Lessons for Architectural Design](https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/) - Nginx Blog
+
+## SoundCloud (SC)
+
+## Thoughworks (TH)
+
+## TransferWise (TW)
+
+## Uber (UB)
+
+## WIX (WX)
