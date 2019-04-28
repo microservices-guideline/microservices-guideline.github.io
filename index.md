@@ -1,19 +1,19 @@
 
 This page contains the resources used in the paper "Guidelines for Extracting Microservices from Monolithics", available at [doi:10..xxx/yyyyy]().
 
-Summary
+## Summary
 
-1. [AirBnb](#)
-2. [Atlassian](#)
-3. [Danske Bank](#)
-4. [Karma](#)
-5. [Medium](#)
-6. [Netflix](#)
-7. [SoundCloud](#)
-8. [Thoughworks](#)
-9. [TransferWise](#)
-10. [Uber](#)
-11. [WIX](#)
+1. [AirBnb](#airbnb-ab)
+2. [Atlassian](#atlassian-at)
+3. [Danske Bank](#danske-bank-db)
+4. [Karma](#karma-km)
+5. [Medium](#medium-md)
+6. [Netflix](#netflix-nf)
+7. [SoundCloud](#soundcloud-sc)
+8. [Thoughworks](#thoughworks-th)
+9. [TransferWise](#transferwise-tw)
+10. [Uber](#uber-ub)
+11. [WIX](#wix-wx)
 
 <hr>
 
