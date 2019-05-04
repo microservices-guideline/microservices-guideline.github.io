@@ -19,6 +19,22 @@ This page contains the resources used in the paper "Guidelines for Extracting Mi
 
 ## AirBnb (AB)
 
+- Video: [From Monorail to Monorepo: Airbnb's journey into microservices](https://www.youtube.com/watch?v=47VOcGGm6aU) - GitHub Universe 2018
+
+	- [19:12](https://www.youtube.com/watch?v=47VOcGGm6aU)  - Not allow developers to contribute codes into monorail anymore unless it's like maintenance code you will not be allowed to add new features into monorail and this is really to kind of force people to adopt microservices.
+
+	- [24:11](https://www.youtube.com/watch?v=47VOcGGm6aU) - talk to each other by doing RPC calls over TCP so there's no JSON over HTTP between services (Apache Thrift)
+
+	- [24:44](https://www.youtube.com/watch?v=47VOcGGm6aU) - Communication is asynchronous you don't expect a result back, we use Kafka's or a message queue so you would basically just put in queue a message
+
+	- [30:57](https://www.youtube.com/watch?v=47VOcGGm6aU)  - we're also moving in to deploy pipelines so it used to be where anyone can deploy any piece of code to any environments
+
+	- [32:04](https://www.youtube.com/watch?v=47VOcGGm6aU) - we're actually moving into spinnaker a open source continuous delivery tool built in-house by Netflix
+
+	- [36:31](https://www.youtube.com/watch?v=47VOcGGm6aU) - We have dozens, hundreds, maybe even thousands of services that are communicating with each other and something goes wrong, you don't know where it went wrong so you really need good monitoring tools.
+
+- Article: [The Great Migration: from Monolith to Service-Oriented](https://www.infoq.com/presentations/airbnb-soa-migration)
+
 ## Atlassian (AT)
 
 - Video: [From Monolith to Microservices](https://www.youtube.com/watch?v=1jvgxdzxJGQ) - AtlasCamp 2016
@@ -83,9 +99,15 @@ This page contains the resources used in the paper "Guidelines for Extracting Mi
 
 ## Danske Bank (DB)
 
+- Papper [From Monolithic to Microservices: An Experience Report from the Banking Domain](https://ieeexplore.ieee.org/document/8354415)
+
 ## Karma (KM)
 
+- [How we build microservices at Karma](https://blog.karmawifi.com/how-we-build-microservices-at-karma-71497a89bfb4)
+
 ## Medium (MD)
+
+- Article: [Microservice Architecture at Medium](https://medium.engineering/microservice-architecture-at-medium-9c33805eb74f)
 
 ## Netflix (NF)
 
@@ -139,10 +161,43 @@ This page contains the resources used in the paper "Guidelines for Extracting Mi
 
 ## SoundCloud (SC)
 
+- Article: [Building Products at SoundCloud — Part I: Dealing with the Monolith](https://developers.soundcloud.com/blog/building-products-at-soundcloud-part-1-dealing-with-the-monolith)
+
+- Article: [Building Products at SoundCloud — Part II: Breaking the Monolith](https://developers.soundcloud.com/blog/building-products-at-soundcloud-part-2-breaking-the-monolith)
+
+- Article: [Building Products at SoundCloud — Part III: Microservices in Scala and Finagle](https://developers.soundcloud.com/blog/building-products-at-soundcloud-part-3-microservices-in-scala-and-finagle)
+
+- Article: [Microservices and the monolith](https://developers.soundcloud.com/blog/microservices-and-the-monolith)
+
 ## Thoughworks (TH)
+
+- Article: [How to break a Monolith into Microservices](https://martinfowler.com/articles/break-monolith-into-microservices.html)
 
 ## TransferWise (TW)
 
+- Thesis: [Migrating the Monolith to a Microservices Architecture: the Case of TransferWise](https://digi.lib.ttu.ee/i/?3491)
+
+
 ## Uber (UB)
 
+- Article: [Service-Oriented Architecture: Scaling the Uber Engineering Codebase As We Grow](https://eng.uber.com/soa/)
+
+- Article: [Rewriting Uber Engineering: The Opportunities Microservices Provide](https://eng.uber.com/building-tincup/)
+
 ## WIX (WX)
+
+- Video: [Journey from Monolith to Microservices and DevOps by WIX](https://www.youtube.com/watch?v=NrFRC7HB3rU) - 
+XP Days Ukraine 2017
+
+	- [6:41](https://youtu.be/NrFRC7HB3rU?t=405) - Identify scalability concerns of the system that will help to figure out what parts can be separated
+	- [10:26](https://youtu.be/NrFRC7HB3rU?t=624) -  Start separating different system areas that can easily be identified (E.g. Wix site builder system was separated from the viewer part)
+	- [27:32](https://youtu.be/NrFRC7HB3rU?t=1651) - Create feature killers to make it possible to turn off services that are down. So the system can work even without a feature
+	- [32:21](https://youtu.be/NrFRC7HB3rU?t=1941) - The new microservice should be owned by a team, who will be responsible for deploys, fixes, etc.
+	- [33:34](https://youtu.be/NrFRC7HB3rU?t=2014) -  The size of the microservice should be related to the size of the team who is building this microservice
+	- [34:41](https://youtu.be/NrFRC7HB3rU?t=2081) - After separating the main parts of the monolith, start to extract other segments of each main part
+	- [38:46](https://youtu.be/NrFRC7HB3rU?t=2326) - Default to the technology stack that your team knows how to operate. Leave the technical innovation for the non critical microservices and let the team who owns it to take full responsibility for its operation
+	- [42:54](https://youtu.be/NrFRC7HB3rU?t=2574) - It’s all about trade off. Don’t use things that you don’t really need. Check the main concerns of your system and start from them
+
+- Video: [Scaling Engineering by Hacking Conway's Law by Aviran Mordo](https://www.youtube.com/watch?v=eG27-f79YX0) - Devoxx UK 2016
+
+	- [24:00](https://youtu.be/eG27-f79YX0?t=1445) - Limit your code stack so you don’t have to implement same functionality in multiples languages. Thus you can improve code reuse and development velocity.
