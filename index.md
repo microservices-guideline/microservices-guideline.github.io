@@ -87,7 +87,8 @@ This page contains the resources used in the paper "Guidelines for Extracting Mi
 	> "Horizontal scaling. Microservices are distributed by design and can be deployed in clusters. This enables dynamic horizontal scaling across the service boundaries."
 	
 	> "Microservice ownership teams can operate independently of other feature teams in the organization"
-"The separation of business concerns into independent microservices ensures that the service team owning that service is focused on the complete quality deliverable"
+
+	> "The separation of business concerns into independent microservices ensures that the service team owning that service is focused on the complete quality deliverable"
 	
 	> "Exponential Infrastructure Costs. Each new microservice an organization adds to its production deployment comes with its own cost of test suite, deployment playbooks, hosting, infrastructure, monitoring tools and more."
 	
@@ -126,9 +127,9 @@ This page contains the resources used in the paper "Guidelines for Extracting Mi
 	- [22:10](https://youtu.be/57UK46qfBLY?t=1331) - Migration / hybrid ecosystem
 	- [23:13](https://youtu.be/57UK46qfBLY?t=1394) - Uses IPC or RPC communication
 	- [26:20](https://youtu.be/57UK46qfBLY?t=1579) - Use telemetry / metrics to monitor services
+	- [31:15](https://youtu.be/57UK46qfBLY?t=1874) - Use circuit breaker to enable fallbacks and recover system failure
 	- [36:40](https://youtu.be/57UK46qfBLY?t=2201) - Use containers
 	- [47:57](https://youtu.be/57UK46qfBLY?t=2876) - Use CI/CD to automate releases
-
 
 - Video: [Mastering Chaos - A Netflix Guide to Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM) - QCon 2016
 
@@ -138,7 +139,6 @@ This page contains the resources used in the paper "Guidelines for Extracting Mi
 	- [28:10](https://www.youtube.com/watch?v=CZ3wIuvmHeM&t=) - Avoid to store data and state within one application
 	- [35:51](https://www.youtube.com/watch?v=CZ3wIuvmHeM&t=) - Continuous learning and automate failure resolutions
 	- [40:37](https://www.youtube.com/watch?v=CZ3wIuvmHeM&t=) - Use containers
-
 
 - Article [Adopting Microservices at Netflix: Lessons for Architectural Design](https://www.nginx.com/blog/microservices-at-netflix-architectural-best-practices/) - Nginx Blog
 
